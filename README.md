@@ -59,6 +59,17 @@ This AutoML application, developed using **Streamlit**, provides an intuitive in
 
 - **Model Download:**
   - Download trained models in pickle format for future use.
+## Project Structure
+automl_app/
+├── __init__.py
+├── app.py         # Main Streamlit app
+├── utils/
+│   ├── __init__.py
+│   ├── data_handler.py  # Data loading and preprocessing
+│   ├── eda.py         # Exploratory data analysis
+│   ├── model_trainer.py # Model training functions
+│   └── model_evaluation.py # Model evaluation and comparison
+
 
 ## How to Use
 1. **Upload Dataset:**
