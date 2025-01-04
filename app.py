@@ -1,20 +1,20 @@
 import streamlit as st
 import pandas as pd
 import pickle
-from automl_app.utils.data_handler import (
+from AutoML_app.utils.data_handler import (
     display_dataset,
     handle_missing_values,
     split_data,
     handle_categorical_variables
 )
-from automl_app.utils.eda import exploratory_data_analysis
-from automl_app.utils.model_trainer import (
+from AutoML_app.utils.eda import exploratory_data_analysis
+from AutoML_app.utils.model_trainer import (
      train_model_with_grid_search,
      train_model_with_random_search,
      train_model_with_optuna,
      get_model_class
 )
-from automl_app.utils.model_evaluation import (
+from AutoML_app.utils.model_evaluation import (
      evaluate_model,
      compare_models
 )
