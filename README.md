@@ -2,7 +2,7 @@
 
 ## Overview
 
-This AutoML application, developed using **Streamlit**, provides an intuitive interface for users to perform various machine learning tasks, including classification and regression. The tool supports a wide range of machine learning models and fine-tuning methods, including manual hyperparameter selection, grid search, randomized search, and Optuna-based hyperparameter optimization.
+This AutoML application, developed using **Streamlit**, provides an intuitive interface for users to perform various machine learning tasks, including classification and regression. The tool supports a wide range of machine learning models and fine-tuning methods, including manual hyperparameter selection, grid search, randomized search, and Optuna-based hyperparameter optimization. The app is deployed here : https://automl-vlquobsgcpynf3entqfvm8.streamlit.app/
 
 ## Features
 
